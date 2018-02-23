@@ -104,7 +104,7 @@ def play_shoe():
 					banker_sum = (banker_sum + bdeck[idx]) % 10
 					idx += 1
 					banker_cards += 1
-				elif banker_sum == 4 and not (player_third_card == 0 or player_third_card == 1 or player_third_card == 8 or player_third_card == 9):
+				elif banker_sum == 4 and not (player_third_card == 10 or player_third_card == 1 or player_third_card == 8 or player_third_card == 9):
 					banker_sum = (banker_sum + bdeck[idx]) % 10
 					idx += 1
 					banker_cards += 1
